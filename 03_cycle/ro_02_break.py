@@ -1,4 +1,4 @@
-# print "hello python" 5 times
+
 # 1~100 summation
 
 i = 0
