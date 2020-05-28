@@ -1,0 +1,3 @@
+import ro_01_function_create
+
+ro_01_function_create.multiplication_table
