@@ -1,8 +1,9 @@
-def multiplication_table():
-        
+def multiple_table():
+    """九九乘法表"""
+
     # 定义行变量
     row = 1
-    
+
     while row <= 9:
         # 1. 定义一个列计数器变量
         col = 1
@@ -14,6 +15,7 @@ def multiplication_table():
             print("%dx%d="%(row,col),row* col,end="\t")  # 2nd method  # \t 制表符，协助在输出文本时 垂直方向保持对其
             print("%dx%d=%d"%(row,col,row* col),end="\t")  #3rd method 
             col += 1
+
         # print("第 %d 行" % row)
         # 这行代码就是在一行星星输出完之后, 添加换行 !
         print("")
