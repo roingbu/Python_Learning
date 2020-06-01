@@ -1,10 +1,11 @@
+#！ C:/Users/76948/AppData/Local/Microsoft/WindowsApps/python3.exe
 '''
 @Descripttion: 
 @version: 
 @Author: Roing
 @Date: 2020-05-31 15:11:14
 @LastEditors: Roing
-@LastEditTime: 2020-06-01 09:57:29
+@LastEditTime: 2020-06-01 11:15:56
 '''
 import card_02_tools
 

@@ -4,7 +4,7 @@
 @Author: Roing
 @Date: 2020-05-31 15:11:24
 @LastEditors: Roing
-@LastEditTime: 2020-06-01 10:43:08
+@LastEditTime: 2020-06-01 20:04:13
 '''
 card_list = []
 def show_menu():
@@ -20,7 +20,7 @@ def show_menu():
     print("")
     print("【0】exit")
     print("*"*50)
-
+    
 def new_card():
     '''
     @description: 新增名片
