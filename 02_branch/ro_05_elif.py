@@ -4,8 +4,8 @@ if holiday_name == "christmas eve":
     print("buy apple")
     print("eat big meal")
 elif holiday_name == "birthday":
-    print("but cake")
+    print("buy cake")
 elif holiday_name == "Valentine's day":
-    print("but roses")
+    print("buy roses")
 else:
     print("everyday is festival")

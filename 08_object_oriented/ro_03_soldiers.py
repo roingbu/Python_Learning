@@ -27,28 +27,29 @@ class Gun:
             return
 
         self.ammo -= 1
-        print("%s Tu [%dremained]"%(self.model,self.ammo))
+        print("%s Tu [%dremained]" % (self.model, self.ammo))
+
 
 class Soldier:
 
-    def __init__(self,name):
+    def __init__(self, name):
 
         self.name = name
         self.gun = None
-        
+
     def fire(self):
-        
+
         if self.gun is None:
-            print("[%s]no gun" %self.name)
+            print("[%s]no gun" % self.name)
 
             return
 
-        print("[%s] SAY:go,go,let's go!"%self.name)
+        print("[%s] SAY:go,go,let's go!" % self.name)
 
         self.gun.add_ammo(67)
 
         self.gun.shoot()
-                
+
 
 ak47 = Gun("ak47")
 ak47.add_ammo(67)
@@ -58,4 +59,3 @@ xusanduo = Soldier("xusanduo")
 
 xusanduo.gun = ak47
 xusanduo.fire()
-

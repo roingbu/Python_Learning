@@ -1,4 +1,4 @@
-#！ C:/Users/76948/AppData/Local/Microsoft/WindowsApps/python3.exe
+# ！ C:/Users/76948/AppData/Local/Microsoft/WindowsApps/python3.exe
 '''
 @Descripttion: 
 @version: 

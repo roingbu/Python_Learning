@@ -10,5 +10,6 @@ def add(num1,num2):
     result = num2 +num1
     # print(result)
     # return(result)
+    
     return result  # 括号和空格都行
     print(result)  # return后的代码不会被执行
