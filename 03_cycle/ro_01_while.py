@@ -8,7 +8,7 @@ while i <= 100:
         result += i
     i += 1
 
- 
+
 
 # observe the value of i when cycle shut down
 print("i=%d"%i)

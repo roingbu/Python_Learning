@@ -22,3 +22,4 @@ def print_lines(char, times, lines):  # 当需求多时，尽量不要修改原�
         i += 1
 
 name = "Roing"
+print_lines(name,2,3)

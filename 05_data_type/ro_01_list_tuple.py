@@ -3,12 +3,12 @@
 @version: 
 @Author: Roing
 @Date: 2020-05-30 15:59:33
-@LastEditors: Roing
-@LastEditTime: 2020-05-30 21:09:44
+LastEditors: ROING
+LastEditTime: 2020-11-16 15:53:25
 '''
-list1 = [2,3,"部"]
-list2 = ["zou","ni"]
-tuple1 = (1,23.1,"dbq",2)
+list1 = [2, 3, "部"]
+list2 = ["zou", "ni"]
+tuple1 = (1, 23.1, "dbq", 2)
 
 for cache in list1:
     print(cache)
@@ -20,3 +20,5 @@ print(tuple1[2])
 
 
 print(" ".join(list2))
+# print(" ".join(list1))
+# print(" ".join(tuple1))

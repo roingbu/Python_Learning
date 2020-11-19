@@ -3,15 +3,15 @@
 @version: 
 @Author: Roing
 @Date: 2020-06-05 21:32:42
-@LastEditors: Roing
-@LastEditTime: 2020-06-05 21:51:06
+LastEditors: ROING
+LastEditTime: 2020-11-19 12:37:00
 '''
 
 
 class Person:
 
     def __init__(self, name, weight):
-        # super().__init__()
+        # super().__init__()  # super（）调用父类方法
         self.name = name
         self.weight = weight
 
@@ -31,8 +31,8 @@ class Person:
         self.weight += 2
 
 
-xiaoming = person("xiaoming", 70)
-xiaomei = person("xiaomei", 45)
+xiaoming = Person("xiaoming", 70)
+xiaomei = Person("xiaomei", 45)
 
 xiaoming.run()
 xiaoming.eat()

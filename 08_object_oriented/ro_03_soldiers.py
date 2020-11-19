@@ -3,8 +3,8 @@
 @version: 
 @Author: Roing
 @Date: 2020-06-10 11:17:57
-@LastEditors: Roing
-@LastEditTime: 2020-06-10 16:47:46
+LastEditors: ROING
+LastEditTime: 2020-11-19 12:32:27
 '''
 
 
@@ -35,7 +35,7 @@ class Soldier:
     def __init__(self, name):
 
         self.name = name
-        self.gun = None
+        self.gun = None  # 在不知道啥数据类型
 
     def fire(self):
 
@@ -46,7 +46,7 @@ class Soldier:
 
         print("[%s] SAY:go,go,let's go!" % self.name)
 
-        self.gun.add_ammo(67)
+        # self.gun.add_ammo(67)
 
         self.gun.shoot()
 

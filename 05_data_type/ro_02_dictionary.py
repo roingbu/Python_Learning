@@ -3,8 +3,8 @@
 @version: 
 @Author: Roing
 @Date: 2020-05-30 17:02:59
-@LastEditors: Roing
-@LastEditTime: 2020-05-30 17:08:44
+LastEditors: ROING
+LastEditTime: 2020-11-16 15:54:31
 '''
 xiaoming = {"age": 12,
             "sex": "man"}
@@ -17,4 +17,5 @@ print(xiaoming["age"])
 
 
 for k in xiaoming:
+    print(k)
     print("")
