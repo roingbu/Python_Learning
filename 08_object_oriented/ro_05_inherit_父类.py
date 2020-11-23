@@ -1,10 +1,10 @@
 '''
-@Descripttion: 
+@Descripttion: 继承和父类
 @version: 
 @Author: Roing
 @Date: 2020-06-11 19:46:48
 LastEditors: ROING
-LastEditTime: 2020-11-19 12:39:14
+LastEditTime: 2020-11-19 20:47:18
 '''
 
 

@@ -1,10 +1,10 @@
 '''
-@Descripttion: 
+@Descripttion: 静态方法介绍
 @version: 
 @Author: Roing
 @Date: 2020-06-14 09:59:47
 LastEditors: ROING
-LastEditTime: 2020-11-19 19:12:04
+LastEditTime: 2020-11-19 19:46:21
 '''
 class Game(object):  # 为了保证保证编写的代码能够同时在 Python 2.x 和 Python 3.x 运行!今后在定义类时,  如果没有父类,  建议统一继承自 object
 

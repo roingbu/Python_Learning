@@ -1,10 +1,10 @@
 '''
-@Descripttion: 
+@Descripttion: 单例设计模式
 @version: 
 @Author: Roing
 @Date: 2020-06-14 16:00:27
 LastEditors: ROING
-LastEditTime: 2020-11-19 19:35:14
+LastEditTime: 2020-11-19 19:46:11
 '''
 class MusicPlayer(object):
     

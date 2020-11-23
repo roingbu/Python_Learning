@@ -1,5 +1,5 @@
 '''
-@Descripttion: 
+@Descripttion: 类方法
 @version: 
 @Author: Roing
 @Date: 2020-06-14 11:20:00

@@ -4,7 +4,7 @@
 @Author: Roing
 @Date: 2020-06-05 21:32:42
 LastEditors: ROING
-LastEditTime: 2020-11-19 19:26:48
+LastEditTime: 2020-11-19 20:46:40
 '''
 
 
@@ -12,7 +12,7 @@ LastEditTime: 2020-11-19 19:26:48
 class Person:
 
     def __init__(self, name, weight):  # 前后两个下划线的方法是 内置方法
-        # super().__init__()  # super（）指调用父类方法，这是python的基础方法，本身就存在的方法
+        # super().__init__()  # super（）指调用父类方法，此处是类的父类方法，即是python中新式类的内置方法
         self.name = name
         self.weight = weight
 

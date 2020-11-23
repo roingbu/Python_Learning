@@ -1,10 +1,10 @@
 '''
-@Descripttion: 
+@Descripttion: 异常
 @version: 
 @Author: Roing
 @Date: 2020-06-15 19:20:41
-@LastEditors: Roing
-@LastEditTime: 2020-06-15 20:19:08
+LastEditors: ROING
+LastEditTime: 2020-11-19 19:46:56
 '''
 try:
     num=int(input("请输入一个整数"))
