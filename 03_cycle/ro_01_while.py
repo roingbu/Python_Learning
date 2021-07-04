@@ -13,3 +13,5 @@ while i <= 100:
 # observe the value of i when cycle shut down
 print("i=%d"%i)
 print("result = %d"%result)
+print("i=%d"%i)
+print("result = %d"%result)
