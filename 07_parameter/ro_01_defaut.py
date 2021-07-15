@@ -3,11 +3,11 @@
 @version: 
 @Author: Roing
 @Date: 2020-06-01 21:08:32
-@LastEditors: Roing
-@LastEditTime: 2020-06-02 11:05:13
+LastEditors: ROING
+LastEditTime: 2021-07-15 21:10:52
 '''
 def sex(gender=True):
-    
+
     sex_inf = "man" 
     if not gender:
         sex_inf = "girl"

@@ -4,7 +4,7 @@ Version:
 Author: ROING
 Date: 2020-11-19 18:22:00
 LastEditors: ROING
-LastEditTime: 2020-11-19 18:44:42
+LastEditTime: 2021-07-15 21:28:23
 '''
 
 
@@ -21,7 +21,7 @@ class XiaoTianQuan(Dog):
 
     def game(self):  # 对game方法进行重构
         print("%s is playing in the sky." % self.name)
-
+# 继承和重构 就是多态
 
 class Person(object):
 
@@ -41,4 +41,4 @@ wangcai2 = XiaoTianQuan("飞天旺财")
 xiaoming = Person("小明")
 
 xiaoming.game_with_dog(wangcai)
-xiaoming.game_with_dog(wangcai2)  # 继承和重构 就是多态
+xiaoming.game_with_dog(wangcai2)  
